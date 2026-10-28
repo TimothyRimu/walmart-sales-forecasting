@@ -26,6 +26,8 @@ Weekly sales for 45 Walmart stores over 143 weeks (6,435 rows), with temperature
 - Boosting hyperparameters were not tuned; the model comparison is a baseline study, not an optimised system.
 
 ## Run it
+
+A notebook version, [`walmart_sales_forecasting.ipynb`](walmart_sales_forecasting.ipynb), walks through the same analysis step by step.
 ```
 pip install pandas numpy scikit-learn
 python analysis.py              # reads data/Walmart.csv
